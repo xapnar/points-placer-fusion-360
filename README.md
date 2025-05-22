@@ -5,11 +5,11 @@
 	2.	Adds a new sketch on the XY construction plane.
 	3.	Takes your list of 2D points — formatted like [(x1, y1), (x2, y2), ...] — and:
 	4.	Converts each to a 3D point with z = 0.
-	5.  Draws lines between consecutive points in the list.
+	5.      Draws lines between consecutive points in the list.
 
 ### **✍️ How To Use**
 	1.	Open Fusion 360.
-	2.	Go to Scripts and Add-Ins > Add-Ins tab.
+	2.	Utilities -> Add-Ins -> Create [in scripts tab]
 	3.	Load this script (you can just paste it in a .py file).
 	4.	Replace the points list in the script with your own:
 ```
@@ -20,7 +20,7 @@ points = [
     (3, 1)
 ]
 ```
-  5. Click Run. Boom 💥 — you’ve got lines!
+        5. Click Run. Boom 💥 — you’ve got lines!
 
 ### **🛠️ Gotchas**
 	•	Z is always zero. This only works for **2D sketches** on the XY plane.
